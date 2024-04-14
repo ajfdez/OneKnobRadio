@@ -93,7 +93,7 @@ Take a look in the ```/img``` folder for the images of the circuit.
 
 Encoder rotation changes the active value. A double click cycles between systems.
 
-The first screen shows the ```COM1``` and ```NAV1``` settings, the second shows ```COM2``` and ```NAV2``` settings. The second screen show the ```ADF``` frequency. The third screen shows the ```XPNDR``` code.
+The first screen shows the ```COM1``` and ```NAV1``` settings, the second shows ```COM2``` and ```NAV2``` settings. The third screen show the ```ADF``` frequency. The fourth screen shows the ```XPNDR``` code.
 
 One triple click enters configuration mode.
 
