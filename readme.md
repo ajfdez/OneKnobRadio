@@ -72,7 +72,9 @@ The LCD is connected to the Arduino board using the following pin configuration:
 
 `````` rs = A5, en = A4, d4 = A3, d5 = A2, d6 = A1, d7 = A0; ``````
 
-Since I like to use as few components as possible, in this project the backlighting and contrast of the LCD panel are controlled by PWM. This way, the typical potentiometers for controlling lighting and contrast are no longer necessary. Additionally, this system allows these parameters to be operated within the program without having to access the electronic circuit. In future versions, it will be possible to implement a link between the airplane panel lighting value and the LCD lighting.
+Since I like to use as few components as possible, in this project the backlighting and contrast of the LCD panel are controlled by PWM. This way, the typical potentiometers for controlling lighting and contrast are no longer necessary. Additionally, this system allows these parameters to be operated within the program without having to access the electronic circuit. 
+
+In future versions, it will be possible to implement a link between the airplane panel lighting value and the LCD lighting.
 
 The backlight pin goes to Arduino pin 5, the Contrast pin goes to Arduino pin 6.
 
