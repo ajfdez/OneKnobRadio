@@ -85,7 +85,7 @@ The backlight pin goes to Arduino pin 5, the Contrast pin goes to Arduino pin 6.
 
 Take a look in the ```/img``` folder for the images of the circuit.
 
-<img src="https://github.com/ajfdez/OneKnobRadio/blob/main/img/OneKnobRadio_sch.png" width="397" height="526">
+<img src="https://github.com/ajfdez/OneKnobRadio/blob/main/img/OneKnobRadio_sch.png" width="500" height="350">
 
 ## USAGE
 
