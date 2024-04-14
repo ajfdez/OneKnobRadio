@@ -68,8 +68,8 @@ It can also be compiled using the Arduino IDE changing the extension from ```src
 
 Arduino UNO or Leonardo like board, and a rotary encoder.
 
-The rotary encoder pins DT and CLK are connected to Pin 2 and Pin 3 of the Arduino board. The GND Pin goes to any Arduino GND pin.
-The SW pin goes to pin 4.
+The rotary encoder pins ```DT``` and ```CLK``` are connected to Pin 2 and Pin 3 of the Arduino board. The ```GND``` Pin goes to any Arduino ```GND``` pin.
+The ```SW``` pin goes to pin 4.
 
 The LCD is connected to the Arduino board using the following pin configuration:
 
@@ -99,8 +99,8 @@ One triple click enters configuration mode.
 
 |      Clicks       |        |
 |-------------------|---------------------------------------------------------------------------------------------------------------|
-|  Short click      | Switches between numeric parameters.<br> For example, in COM/NAV modes, switches between decimal and integers. In XPNDR mode switches between digits.  |
-|  Long click       | Switches between Standby and Active frecuency. In XPNR mode sends the IDENT |  
+|  Short click      | Switches between numeric parameters.<br> For example, in ```COM/NAV``` modes, switches between decimal and integers. In ```XPNDR``` mode switches between digits.  |
+|  Long click       | Switches between Standby and Active frecuency. In ```XPNDR``` mode sends the IDENT |  
 |  Double click     | Switches between radio systems. |
 |  Triple click     | Enter or exits configuration mode. |
 
