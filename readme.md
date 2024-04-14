@@ -62,7 +62,7 @@ It can also be compiled using the Arduino IDE changing the extension from ```src
 
 #### NOTE 1: + or 5V pin of the encoder PCB is used for the included pull up resistors for the encoder pins A and B, since we are using the pull up resistors embedded in the Arduino chip, this pin is not needed, and may left unconnected. But if you are experiencing "lost ticks", or using long cables from Arduino to encoder boards, this pin may need be used for better rotary detection.
 
-#### NOTE 2: The Encoder pins A and B can be reversed to Arduino Pin 3 and 2 to follow your CW/CCW trim setup.
+#### NOTE 2: The Encoder pins A and B can be reversed to Arduino Pin 3 and 2 to follow your CW/CCW encoder setup.
 
 
 
