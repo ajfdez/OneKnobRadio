@@ -126,10 +126,12 @@ SPAD.neXt needs to be restarted after this settings.
 SPAD.neXt  https://www.spadnext.com/
 
 This code uses the CmdMessenger and EncoderButton libraries.
-
-You can install them using the PlatformIO Library Manager or the Arduino Library Manager.
                                   
 - CmdMessenger by Thijse. https://github.com/thijse/Arduino-CmdMessenger
                   
 - EncoderButton by Stutchbury. https://github.com/Stutchbury/EncoderButton
 
+It also uses the Arduino IDE included libraries LiquidCrystal and EEPROM
+
+
+You can install using the PlatformIO Library Manager or the Arduino Library Manager.
