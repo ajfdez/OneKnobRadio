@@ -84,18 +84,34 @@ Take a look in the ```/img``` folder for the images of the circuit.
 
 ## USAGE
 
-|      Clicks       | Connection                                                                                                    |
-|-------------------|---------------------------------------------------------------------------------------------------------------|
-|  One short click  | Switches between numeric parameters.                                                                          |
-                      For example, in COM/NAV modes, switches between decimal and integers. In XPNDR mode switches between digits.  
-|                   |                                                                                                               |
+Encoder rotation changes the active value. A double click cycles between systems.
 
+The first screen shows the ```COM1``` and ```NAV1``` settings, the second shows ```COM2``` and ```NAV2``` settings. The second screen show the ```ADF``` frequency. The third screen shows the ```XPNDR``` code.
+
+One triple click enters configuration mode.
+
+#### Encoder switch settings.
+
+|      Clicks       |        |
+|-------------------|---------------------------------------------------------------------------------------------------------------|
+|  One short click  | Switches between numeric parameters.<br> For example, in COM/NAV modes, switches between decimal and integers. In XPNDR mode switches between digits.  |
+|  One long click   | Switches between Standby and Active frecuency. In XPNR mode sends the IDENT |  
+|    Double click   | Switches between radio systems. |
+|    Triple click   | Enter or exits configuration mode. |
+
+#### Configuration mode.
+
+|  Setting  |                |
+|-----------|----------------|
+|   MODE    | Switches between ```COM1/NAV1 - COM2/NAV2``` and ```COM1/COM2 - NAV1/NAV2``` screen setting. **IN TESTING**         |
+|   LCD     | LCD Backlight setting. Increase or decrease the LCD brightness.  |
+|   CONT    | LCD Contrast setting. Increase or decrease the LCD contrast.     |
 
 ## SPAD.neXt
 
 The SPAD.neXt configuration is very simple, just create a new device in the settings page, then add a ```Serial Device``` and select the Arduino board COM port from the list.
 
-The config is DTR off, 32 bit ON. 
+The config is ```DTR``` OFF, ```32 bit``` ON. 
 
 SPAD.neXt needs to be restarted after this settings.
 
