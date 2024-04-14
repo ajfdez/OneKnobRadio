@@ -99,8 +99,8 @@ One triple click enters configuration mode.
 
 |      Clicks       |        |
 |-------------------|---------------------------------------------------------------------------------------------------------------|
-|  One short click  | Switches between numeric parameters.<br> For example, in COM/NAV modes, switches between decimal and integers. In XPNDR mode switches between digits.  |
-|  One long click   | Switches between Standby and Active frecuency. In XPNR mode sends the IDENT |  
+|  1 short click  | Switches between numeric parameters.<br> For example, in COM/NAV modes, switches between decimal and integers. In XPNDR mode switches between digits.  |
+|  1 long click   | Switches between Standby and Active frecuency. In XPNR mode sends the IDENT |  
 |    Double click   | Switches between radio systems. |
 |    Triple click   | Enter or exits configuration mode. |
 
