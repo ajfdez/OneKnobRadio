@@ -10,7 +10,7 @@
 
 This is a code for a radio panel hardware controller for Microsoft Flight Simulator 2020 using SPAD.neXt and an Arduino UNO or Leonardo like board.
 
-<img src="https://github.com/ajfdez/OneKnobRadio/blob/img/OneKnobRadio_bb.png" width="397" height="526">
+<img src="https://github.com/ajfdez/OneKnobRadio/blob/main/img/OneKnobRadio_bb.png" width="397" height="526">
 
 
 This project has focused on controlling the entire radio device stack of an airplane with a single encoder. Offering simple and intuitive control of multiple systems with a single device, with the minimum number of components.
