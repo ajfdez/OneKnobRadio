@@ -54,11 +54,14 @@ It can also be compiled using the Arduino IDE changing the extension from ```src
 |    DT    | Encoder pin B to Arduino Pin 2. **See NOTE 2.**            |
 |    CLK   | Encoder pin A to Arduino Pin 3. **See NOTE 2.**            |
 
+
+1   HD44780 1602 LCD Display with 2 Lines 16 Characters.
+
+
 #### NOTE 1: + or 5V pin of the encoder PCB is used for the included pull up resistors for the encoder pins A and B, since we are using the pull up resistors embedded in the Arduino chip, this pin is not needed, and may left unconnected. But if you are experiencing "lost ticks", or using long cables from Arduino to encoder boards, this pin may need be used for better rotary detection.
 
 #### NOTE 2: The Encoder pins A and B can be reversed to Arduino Pin 3 and 2 to follow your CW/CCW trim setup.
 
-1   HD44780 1602 LCD Display with 2 Lines 16 Characters.
 
 
 ## HARDWARE SETUP          
