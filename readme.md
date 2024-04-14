@@ -15,6 +15,8 @@ This is a code for a radio panel hardware controller for Microsoft Flight Simula
 
 This project has focused on controlling the entire radio device stack of an airplane with a single encoder. Offering simple and intuitive control of multiple systems with a single device, with the minimum number of components.
 
+With this code, you can control ```COM 1```, ```COM 2```, ```NAV 1```, ```NAV 2```, ```ADF``` & ```XPNDR CODE``` with one single knob.
+
 Even the most el cheapo encoder found on Amazon will perform much more better than those used in the Saitek/Logitech hardware controllers. 
 Look for **rotary encoder** on Amazon or your electronics parts supplier to find yours.
 This code uses hardware interrupts for not loosing a single rotary step, Allowing for better simulation inmersion and accuracy with a tactile feedback control.
