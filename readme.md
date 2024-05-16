@@ -26,8 +26,6 @@ The Arduino board is connected to the PC via USB and the SPAD.neXt software is u
 SPAD.neXt is a software that allows you to create custom controls for flight simulators. You can download it from https://www.spadnext.com/. 
 A license for running SPAD.neXt is needed, and charges may apply.
 
-This project is not endorsed or afiliated in any way with SPAD.neXt.
-
 Please take a look in https://github.com/ajfdez/TrimWheel to see another related project.
 
 
