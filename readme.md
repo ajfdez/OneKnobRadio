@@ -1,4 +1,4 @@
-# One Knob Radio for Microsoft Flight Simulator 2020
+# One Knob Radio for Microsoft Flight Simulator 2020 / 2024
 
 ##### Version: 1.0
 ##### License: MIT
@@ -8,7 +8,7 @@
 
 ## DESCRIPTION
 
-This is a code for a radio panel hardware controller for Microsoft Flight Simulator 2020 using SPAD.neXt and an Arduino UNO or Leonardo like board.
+This is a code for a radio panel hardware controller for Microsoft Flight Simulator 2020/2024 using SPAD.neXt and an Arduino UNO or Leonardo like board.
 
 <img src="https://github.com/ajfdez/OneKnobRadio/blob/main/img/OneKnobRadio_bbd.png" width="597" height="819">
 
